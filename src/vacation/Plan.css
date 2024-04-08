@@ -1,0 +1,32 @@
+.plan{
+    
+    height: 350px;
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text_plan h1{
+   font-size: 40px;
+   position: relative;
+   margin-top: -20px;
+   
+}
+.text_plan{
+    margin-top: 50px;
+    background: url('..//photo//plan.png');
+    margin-left:20px;
+    
+    height: 300px;
+    border-radius: 20px;
+}
+
+.text_plan p{
+    font-size: 28px;
+}
+
+.text_h1_p{
+    text-align: start;
+    margin-left: 100px;
+    padding-top: 100px;
+}

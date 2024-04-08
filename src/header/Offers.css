@@ -1,0 +1,33 @@
+.offers{
+    margin-top:30px;
+}
+.offers ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: -40px;
+    opacity: 0.6;
+}
+
+.offers li a {
+    text-decoration: none;
+    color:rgb(144, 155, 155);
+    
+}
+
+.offers .img_offer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.offers .img_offers{
+    width: 30px;
+    height: 30px;
+}
+.offers .active-link {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: rgb(255, 255, 255); /* Устанавливаем желтый цвет для текста активной ссылки */
+}

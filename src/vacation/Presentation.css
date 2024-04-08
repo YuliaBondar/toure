@@ -1,0 +1,86 @@
+.presentation{
+    width: 100%;
+    height: 70vh;
+    background: url('../photo/background_under_footer.png');
+    color:white;
+}
+span{
+color:white;}
+
+.tel img{
+    height: 70%;
+    margin-top: 110px;}
+
+.information {
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text h1{
+    margin-top: 120px;
+    font-size: 40px;
+}
+span{
+    font-size: 22px;
+}
+.input .btn{
+    margin-top: 15px;
+    background-color: inherit;
+    border:1px solid black;
+}
+.btn button{
+    margin-top: 50px;
+    background-color: inherit;
+    border:1px solid black;
+    margin-right: 10px;
+}
+.btn button:active,
+.input .btn:active{
+    background-color: rgb(190, 188, 188);
+            opacity: 0.5;
+}
+
+.input{
+    display: flex;
+    color:black;
+    
+}
+.inpt{
+    font-size: 16px;
+}
+
+.enter input{
+    background-color: rgb(199, 199, 199);
+    opacity: 0.5;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+   
+}
+
+.cont {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .but {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+.contact{
+    display: flex;
+}
+
+
+.but  img, 
+.but  img{
+    width: 160px;
+    height: 50PX;
+    background-color: black;
+}

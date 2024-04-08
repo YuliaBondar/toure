@@ -1,0 +1,71 @@
+.footer{
+    background-color: black;
+    display:grid;
+    color:gray;
+}
+
+.footer_displ {
+    display:flex;
+    margin-left: 10px;
+    
+}
+
+.emblem{
+    display:flex;
+    margin-right: 80px;
+    margin-left: 80px; 
+    justify-content: space-evenly;
+    color:white;
+}
+
+.linkss ul {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+}
+
+.linkss ul li{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 160px;
+}
+
+.emblem_1{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.emblem_1 .but{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color:gray;
+    border:1px solid gray;
+}
+
+.emblem_1 .sots_seti ul li{
+    display: inline;
+    margin-left: 20px;
+   
+    
+}
+
+.images{
+    width: 25px;
+    height: 25px;
+    color:gray;
+}
+.year{
+    display: flex;
+    margin-left: 80px;
+}
+.year span{
+    font-size: 16px;
+    color:gray;
+}
+.emblem_c {
+    margin-left: 200px;
+}

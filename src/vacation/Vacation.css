@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+    .vacation {
+      font-size: 14px; /* Пример изменения размера шрифта */
+      padding: 10px; /* Пример изменения внутренних отступов */
+    }
+  }
+  
+  /* Пример стилей для экранов шириной от 769px до 1024px */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .vacation {
+      font-size: 16px; /* Пример изменения размера шрифта */
+      padding: 20px; /* Пример изменения внутренних отступов */
+    }
+  }
+  
+  /* Пример стилей для экранов шириной больше 1024px */
+  @media (max-width: 1025px) {
+    .vacation {
+      font-size: 18px; /* Пример изменения размера шрифта */
+      padding: 30px; /* Пример изменения внутренних отступов */
+    }
+  }
+
+.vacation{
+    margin-top:-220px;
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+
+.browse{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.vacat{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.imagge .text{
+    margin-left: 30px;
+}
+.vacation .imagge img,
+.browse .imagge img{
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.imagge li {
+    color:black;
+    position: relative;
+    text-align: center;
+}
+
+.vacation .text_vacatin{
+    color:rgb(255, 255, 255);
+    position: relative;
+    z-index: 1; /*текст на переднпй план */
+}
+
+/* .imagge li .text{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+} */
+/* 
+.imagge li .text{
+    color:pink;
+   
+} */
+
+.imagge li {
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.image-link {
+    position: relative;
+    display: block;
+}
+
+.image-link .image-text1 {
+    position: absolute; /*позицианирует заново*/
+    bottom: 40px; 
+    left: 35px; 
+    font-size: 25px; 
+    color: #FFF; 
+    font-weight: 600;
+    padding: 5px; /*Отступы текста от краёв фона*/
+}

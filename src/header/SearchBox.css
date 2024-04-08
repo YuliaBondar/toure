@@ -1,0 +1,127 @@
+.search_box{
+    height: 60px;
+
+    border-radius: 20px;
+    background-color:rgb(213, 215, 218);
+    opacity: 0.8;
+}
+
+.search_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+}
+
+.input_check input:focus {
+    outline: none;
+} 
+
+.images .glasses{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    color:black;
+}
+
+.search .input_check input{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display:flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: inherit;
+    border:none;
+}
+
+.images_calendar .calendar{
+    margin-top: 2px;
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    color:black;
+    font-weight: 300;
+}
+
+.check_in .input_calendar,
+.check_out .input_calendar{
+    
+    color:rgb(122, 122, 123);
+}
+
+.search_box .check_in,
+.search_box .check_out{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.room_adults{
+    display:flex;
+}
+.room_adults .images_persone .persone{
+    
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.search_box .search_button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color:blue;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline;
+    margin-right: 20px; 
+}
+
+
+.search_box .search_button:active{
+    background-color: rgb(204, 201, 201);
+}
+
+.room_selector button{
+    
+    width: 30px;
+    height: 35px;
+    background-color: inherit;
+    font-size: 25px;
+    color:gray;   
+}
+.room_selector button:hover{
+    border:none;
+    background-color: none;
+}
+
+.room_selector span{
+    color:gray;
+    font-size: 20px;
+
+}
+.room_selector{
+    margin-right: 20px;
+}
+.adults button{
+    width: 30px;
+    height: 35px;
+    background-color: inherit;
+    font-size: 25px;
+    color:gray; 
+}
+.adults span{
+    color:gray;
+    font-size: 20px;
+}
